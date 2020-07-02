@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dexdelta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dexdelta.github.io
+  * I am dexdelta (https://keybase.io/dexdelta) on keybase.
+  * I have a public key ASBiHLIG82pjAoRYAl6ylKQPyiSlEg2wcqG17UvJFCBPdAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120621cb206f36a63028458025eb294a40fca24a5120db072a1b5ed4bc914204f740a",
+      "host": "keybase.io",
+      "kid": "0120621cb206f36a63028458025eb294a40fca24a5120db072a1b5ed4bc914204f740a",
+      "uid": "22e2a87f53477c4833103291353d3519",
+      "username": "dexdelta"
+    },
+    "merkle_root": {
+      "ctime": 1593727232,
+      "hash": "22a94f5421e02865af36933e86f3d6f202eacb6d33370b672493c85e64d92ec3385bd3c0e5108e0b9160ea3d3c68134754a96f33d52a8b9192f5dbf53939467a",
+      "hash_meta": "2be8fdc7cc62a0230485d87522be292f0e6d8764c45b8770a06e8e76e9de179b",
+      "seqno": 16851025
+    },
+    "service": {
+      "entropy": "5V//40P/32c2U3Ysc//sLpmJ",
+      "hostname": "dexdelta.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1593727292,
+  "expire_in": 504576000,
+  "prev": "31c8c27e5fb89bc19b8dd6ed5c659aac163fb512364fbbf02d66331129f66a5c",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYhyyBvNqYwKEWAJespSkD8okpRINsHKhte1LyRQgT3QKp3BheWxvYWTESpcCCsQgMcjCfl+4m8GbjdbtXGWarBY/tRI2T7vwLWYzESn2alzEIJPeQ2xuyTYoPH0UQ9dsYEz0G9OaGgP80N357Rel8z/BAgHCo3NpZ8RAaq3FuZpQ7umGI4QgayFhjSuMrMt/VYFZqDJoyFFHzgdz7vNIlePNNa3aF8Xk1aWWfO30hqJpO4LxF1OCrnBRBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINwYb9plowI9ChO361wTcEi8exUsS936jHj54P0Z387Eo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dexdelta
+
+==================================================================
