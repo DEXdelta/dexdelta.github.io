@@ -3,11 +3,7 @@
   "contractToken": "smart_contract/token.sol",
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractEtherDeltaAddrs": [
-    { "addr": "0x8d12a197cb00d4747a1fe03395095ce2a5cc6819", "info": "Deployed 02/09/2017 -- THE CURRENT SMART CONTRACT" },
-    { "addr": "0x373c55c277b866a69dc047cad488154ab9759466", "info": "Deployed 10/24/2016 -- OLD, DO NOT USE" },
-    { "addr": "0x4aea7cf559f67cedcad07e12ae6bc00f07e8cf65", "info": "Deployed 08/30/2016 -- OLD, DO NOT USE" },
-    { "addr": "0x2136bbba2edca21afdddee838fff19ea70d10f03", "info": "Deployed 08/03/2016 -- OLD, DO NOT USE" },
-    { "addr": "0xc6b330df38d6ef288c953f1f2835723531073ce2", "info": "Deployed 07/08/2016 -- OLD, DO NOT USE" }
+    { "addr": "0x4330a744ea4b5b53aa5a01ddb0218e5851dc95d2", "info": "Deployed 02/09/2017 -- THE CURRENT SMART CONTRACT" }
   ],
   "ethTestnet": false,
   "ethChainId": 1,
@@ -21,14 +17,14 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.001,
-  "socketServer": "https://api.forkdelta.app",
+  "socketServer": "https://socket.etherdelta.com",
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
   "ordersCacheCookie": "EtherDelta_ordersCache",
-  "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
+  "etherscanAPIKey": "J1PQEBR1J1J7AV9RD7YJ36X35U1MBRNU2V",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
-    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
+    { "addr":"0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
   ],
   "tokens": [
     { "addr": "0xca008ac4a97907e949ba21fe14ceec1af7c3932a", "name": "DEX", "decimals": 8 },
@@ -198,6 +194,7 @@
     { "addr": "0x26607f9bf9d62a37b0c78e1d3719fcd1fa32bef9", "name": "GFL", "decimals": 18 },
     { "addr": "0x268b7976e94e84a48bf8b2b57ba34b59ed836a74", "name": "XAI", "decimals": 8 },
     { "addr": "0x26d5bd2dfeda983ecd6c39899e69dae6431dffbb", "name": "ERC20", "decimals": 18 },
+    { "addr": "0x04c7cd246330288a84d2788e8a323cc41206c2eb", "name": "ERC20", "decimals": 18 },
     { "addr": "0x26e75307fc0c021472feb8f727839531f112f317", "name": "C20", "decimals": 18 },
     { "addr": "0x27054b13b1b798b345b591a4d22e6562d47ea75a", "name": "AST", "decimals": 4 },
     { "addr": "0x27537ff4df3081cef9bee9b29cac764067b42611", "name": "SLIP", "decimals": 0 },
@@ -429,7 +426,7 @@
     { "addr": "0x6531f133e6deebe7f2dce5a0441aa7ef330b4e53", "name": "TIME", "decimals": 8 },
     { "addr": "0x6576963107077cce5ec879978c03ec6bb300cc89", "name": "CSN", "decimals": 8 },
     { "addr": "0x039B5649A59967e3e936D7471f9c3700100Ee1ab", "name": "KCS", "decimals": 6 },
-    { "addr": "0x660b612ec57754d949ac1a09d0c2937a010dee05", "name": "BCD", "decimals": 6 },
+    //{ "addr": "0x660b612ec57754d949ac1a09d0c2937a010dee05", "name": "BCD", "decimals": 6 },
     { "addr": "0x662abcad0b7f345ab7ffb1b1fbb9df7894f18e66", "name": "CTX", "decimals": 18 },
     { "addr": "0x667088b212ce3d06a1b553a7221e1fd19000d9af", "name": "WINGS", "decimals": 18 },
     { "addr": "0x6678e467fa5ccfbdc264d12f4b8b28fe4661606b", "name": "DCNT", "decimals": 1 },
@@ -1030,8 +1027,9 @@
     { "addr": "0x515bA0a2E286AF10115284F151cF398688A69170", "name": "TenX", "decimals": 18 },
     { "addr": "0xc36e2C02e64585c15794B8e25E826d50b15fd878", "name": "ANIME", "decimals": 8 },
     { "addr": "0x225927F8fa71d16EE07968B8746364D1d9F839bD", "name": "BTCF", "decimals": 8 },
-    { "addr": "0x7Be3E4849AA2658C91B2D6fCf16Ea88CfCb8B41e", "name": "DGC", "decimals": 0 },
-    { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "decimals": 18 }
+    { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "decimals": 18 },
+    { "addr": "0x61e24dD8d1F04A020F1160181a1bC7a5E07F417f", "name": "STRATUM", "decimals": 18 },
+    { "addr": "0x61e24dD8d1F04A020F1160181a1bC7a5E07F417f", "name": "BTCD", "decimals": 18 }
   ],
-  "defaultPair": { "token": "DEX", "base": "ETH" }
+  "defaultPair": { "token": "STRATUM", "base": "ETH" }
 }
